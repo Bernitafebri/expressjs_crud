@@ -1,0 +1,27 @@
+# INSTALL EXTENTION REST CLIENT PADA VISUAL CODE
+
+GET http://localhost:5000/products
+
+###
+GET http://localhost:5000/products/1
+
+###
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "title": "Produk 2",
+    "price": 10000
+}
+
+###
+PATCH  http://localhost:5000/products/2
+Content-Type: application/json
+
+{
+    "title": "Produk updated 2",
+    "price": 10000
+}
+
+###
+DELETE  http://localhost:5000/products/1
